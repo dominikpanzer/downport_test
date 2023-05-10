@@ -17,4 +17,5 @@ CLASS zcl_downport_test IMPLEMENTATION.
     CONSTANTS ddmmyyyy_dot_seperated TYPE string VALUE '^(0[0-9]|[12][0-9]|3[01])[- \..](0[0-9]|1[012])[- \..]\d\d\d\d$'.
     result = xsdbool( matches( val = variables regex = ddmmyyyy_dot_seperated ) ).
   ENDMETHOD.
+
 ENDCLASS.
