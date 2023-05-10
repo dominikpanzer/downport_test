@@ -18,4 +18,5 @@ CLASS zcl_downport_test IMPLEMENTATION.
     result = xsdbool( matches( val = variables regex = ddmmyyyy_dot_seperated ) ).
   ENDMETHOD.
 
+
 ENDCLASS.
